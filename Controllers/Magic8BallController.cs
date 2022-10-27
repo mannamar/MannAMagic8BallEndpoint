@@ -1,3 +1,9 @@
+// Amardeep Mann
+// 10-27-22
+// Magic 8 Ball - Endpoint
+// Create a Magic * Ball WebAPI project that takes in a string variable via the URL as a question and presents the user wit ha randomly generated answer
+// Peer reviewed by
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
