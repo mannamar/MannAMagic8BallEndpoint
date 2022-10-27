@@ -21,7 +21,7 @@ namespace MannAMagic8BallEndpoint.Controllers
     {
       string[] eightBallArray = new string[] { "Indubitably my dear Watson", "Maybe when hell freezes over", "My sources say no, but they also said Hillary would win so...", "Uhhh.. Trust me you don't want to know", "DON'T BET THE FARM ON IT!", "Pop champagne, do the Dougie, eat some cake. It's a sure thing", "Yes. YES. A thousand times YES!", "Bruh. You know. You've always known.", "Search your feelings, you know it to be true", "I looked forward in time and saw 14,000,605 possible futures. It's true in exactly one of them", "*Astronaut meme intensifies* Always" };
       Random randNum = new Random();
-      int randIndex = randNum.Next(1, 4);
+      int randIndex = randNum.Next(eightBallArray.Length);
       return $"Magic 8-Ball says:\n{eightBallArray[randIndex]}";
     }
 
@@ -31,8 +31,8 @@ namespace MannAMagic8BallEndpoint.Controllers
     {
       string[] eightBallArray = new string[] { "Indubitably my dear Watson", "Maybe when hell freezes over", "My sources say no, but they also said Hillary would win so...", "Uhhh.. Trust me you don't want to know", "DON'T BET THE FARM ON IT!", "Pop champagne, do the Dougie, eat some cake. It's a sure thing", "Yes. YES. A thousand times YES!", "Bruh. You know. You've always known.", "Search your feelings, you know it to be true", "I looked forward in time and saw 14,000,605 possible futures. It's true in exactly one of them", "*Astronaut meme intensifies* Always" };
       Random randNum = new Random();
-      int randIndex = randNum.Next(1, 4);
-      return $"Your question:\n{question}?\nMagic 8-Ball says:\n{eightBallArray[randIndex]}";
+      int randIndex = randNum.Next(eightBallArray.Length);
+      return $"Your question:\n{question}?\n\nMagic 8-Ball says:\n{eightBallArray[randIndex]}";
     }
 
   }
