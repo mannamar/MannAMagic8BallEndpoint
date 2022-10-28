@@ -1,7 +1,7 @@
 # MannAMagic8BallEndpoint
 
 Project Description:
-A Macig*Ball application that will take in a string as user input and output its reverse
+A Macig8Ball application that will take in a string as user input and output its reverse
 
 Instructions:
 1. Download the files and put them in their own folder, open the folder in VS Code, and start debugging (F5)
